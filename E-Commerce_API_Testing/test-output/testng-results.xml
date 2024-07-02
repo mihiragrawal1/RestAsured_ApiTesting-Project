@@ -1,115 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-18T18:15:55 IST" name="Suite" finished-at="2024-06-18T18:15:57 IST" duration-ms="2183">
+  <suite started-at="2024-07-02T23:09:11 IST" name="Default suite" finished-at="2024-07-02T23:09:12 IST" duration-ms="983">
     <groups>
     </groups>
-    <test started-at="2024-06-18T18:15:55 IST" name="Test" finished-at="2024-06-18T18:15:57 IST" duration-ms="2183">
-      <class name="api.tests.loginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:55 IST" name="setup" finished-at="2024-06-18T18:15:55 IST" duration-ms="3" status="PASS">
+    <test started-at="2024-07-02T23:09:11 IST" name="Default test" finished-at="2024-07-02T23:09:12 IST" duration-ms="983">
+      <class name="api.oAuthImplementation.handleoAuth">
+        <test-method signature="getTokenFromoAuth2()[pri:0, instance:api.oAuthImplementation.handleoAuth@235ecd9f]" started-at="2024-07-02T23:09:11 IST" name="getTokenFromoAuth2" finished-at="2024-07-02T23:09:12 IST" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validUserLoginTest(org.testng.ITestContext)[pri:1, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:55 IST" name="validUserLoginTest" description="validate user login with valid credentials" finished-at="2024-06-18T18:15:56 IST" duration-ms="1053" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validUserLoginTest -->
-        <test-method is-config="true" signature="payloadSetup()[pri:0, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:55 IST" name="payloadSetup" finished-at="2024-06-18T18:15:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- payloadSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:56 IST" name="setup" finished-at="2024-06-18T18:15:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="invalidUserLoginTest()[pri:2, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:56 IST" name="invalidUserLoginTest" description="validate user login with invalid credentials" finished-at="2024-06-18T18:15:56 IST" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUserLoginTest -->
-        <test-method is-config="true" signature="payloadSetup()[pri:0, instance:api.tests.loginTest@64bce832]" started-at="2024-06-18T18:15:56 IST" name="payloadSetup" finished-at="2024-06-18T18:15:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- payloadSetup -->
-      </class> <!-- api.tests.loginTest -->
-      <class name="api.tests.deleteProduct">
-        <test-method signature="deleteProductApiTest(org.testng.ITestContext)[pri:0, instance:api.tests.deleteProduct@40db2a24]" started-at="2024-06-18T18:15:57 IST" name="deleteProductApiTest" description="verify is user is able to delete product using delete-product api" finished-at="2024-06-18T18:15:57 IST" duration-ms="134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteProductApiTest -->
-      </class> <!-- api.tests.deleteProduct -->
-      <class name="api.tests.createOrder">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.createOrder@7e6ef134]" started-at="2024-06-18T18:15:57 IST" name="setup" finished-at="2024-06-18T18:15:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="payloadSetup(org.testng.ITestContext)[pri:0, instance:api.tests.createOrder@7e6ef134]" started-at="2024-06-18T18:15:57 IST" name="payloadSetup" finished-at="2024-06-18T18:15:57 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- payloadSetup -->
-        <test-method signature="createOrderApiTest(org.testng.ITestContext)[pri:0, instance:api.tests.createOrder@7e6ef134]" started-at="2024-06-18T18:15:57 IST" name="createOrderApiTest" description="validate if user is able to create a order using createorder api" finished-at="2024-06-18T18:15:57 IST" duration-ms="176" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrderApiTest -->
-      </class> <!-- api.tests.createOrder -->
-      <class name="api.tests.getOrderDetails">
-        <test-method signature="getOrderApiTest(org.testng.ITestContext)[pri:0, instance:api.tests.getOrderDetails@1f010bf0]" started-at="2024-06-18T18:15:57 IST" name="getOrderApiTest" description="validate if user is able to retrive the order details" finished-at="2024-06-18T18:15:57 IST" duration-ms="138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOrderApiTest -->
-      </class> <!-- api.tests.getOrderDetails -->
-      <class name="api.tests.addProduct">
-        <test-method signature="addProductApiTest(org.testng.ITestContext)[pri:0, instance:api.tests.addProduct@19b93fa8]" started-at="2024-06-18T18:15:56 IST" name="addProductApiTest" description="verify if user is able to add a product from addproduct api" finished-at="2024-06-18T18:15:57 IST" duration-ms="480" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@189aa67a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductApiTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.addProduct@19b93fa8]" started-at="2024-06-18T18:15:56 IST" name="setup" finished-at="2024-06-18T18:15:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- api.tests.addProduct -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getTokenFromoAuth2 -->
+      </class> <!-- api.oAuthImplementation.handleoAuth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
